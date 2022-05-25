@@ -1,0 +1,41 @@
+/* 
+    BREAK POINT
+
+    PC: >=1024px
+    Tablet: >=740px $ <1024px
+    Mobile: <740px
+*/
+/*PC*/
+@media (min-width: 1024px) {
+
+}
+
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/*Mobile*/
+@media (max-width: 740px) {
+    #navbar {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav >li:first-child {
+        display: inline-block;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+}
+
